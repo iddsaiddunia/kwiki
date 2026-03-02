@@ -6,7 +6,7 @@ import (
 	"strings"
 
 	"github.com/charmbracelet/lipgloss"
-	"github.com/kwiki/kwiki/tools"
+	"github.com/iddsaiddunia/kwiki/tools"
 	"gopkg.in/yaml.v3"
 )
 

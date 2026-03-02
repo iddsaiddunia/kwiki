@@ -6,12 +6,12 @@ Your cross-platform dev environment setup tool. One command to set up your entir
 
 **Windows (PowerShell):**
 ```powershell
-irm https://raw.githubusercontent.com/you/kwiki/main/scripts/bootstrap.ps1 | iex
+irm https://raw.githubusercontent.com/iddsaiddunia/kwiki/main/scripts/bootstrap.ps1 | iex
 ```
 
 **macOS/Linux:**
 ```bash
-curl -fsSL https://raw.githubusercontent.com/you/kwiki/main/scripts/bootstrap.sh | bash
+curl -fsSL https://raw.githubusercontent.com/iddsaiddunia/kwiki/main/scripts/bootstrap.sh | bash
 ```
 
 ## Commands
@@ -56,7 +56,7 @@ kwiki import my-setup.yaml
 ## Build from Source
 
 ```bash
-git clone https://github.com/you/kwiki.git
+git clone https://github.com/iddsaiddunia/kwiki.git
 cd kwiki
 go build -o kwiki .
 ./kwiki install

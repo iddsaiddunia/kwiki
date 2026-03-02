@@ -7,8 +7,8 @@ import (
 	"github.com/charmbracelet/bubbles/list"
 	tea "github.com/charmbracelet/bubbletea"
 	"github.com/charmbracelet/lipgloss"
-	"github.com/kwiki/kwiki/installer"
-	"github.com/kwiki/kwiki/tools"
+	"github.com/iddsaiddunia/kwiki/installer"
+	"github.com/iddsaiddunia/kwiki/tools"
 )
 
 // ── styles ────────────────────────────────────────────────────────────────────

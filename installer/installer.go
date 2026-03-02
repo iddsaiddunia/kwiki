@@ -7,7 +7,7 @@ import (
 	"runtime"
 	"strings"
 
-	"github.com/kwiki/kwiki/tools"
+	"github.com/iddsaiddunia/kwiki/tools"
 )
 
 type Selection struct {

@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 # kwiki bootstrap for macOS/Linux
-# Usage: curl -fsSL https://raw.githubusercontent.com/you/kwiki/main/scripts/bootstrap.sh | bash
+# Usage: curl -fsSL https://raw.githubusercontent.com/iddsaiddunia/kwiki/main/scripts/bootstrap.sh | bash
 
 set -e
 
@@ -35,7 +35,7 @@ fi
 
 # Clone kwiki
 if [ ! -d "$KWIKI_DIR" ]; then
-    git clone https://github.com/you/kwiki.git "$KWIKI_DIR"
+    git clone https://github.com/iddsaiddunia/kwiki.git "$KWIKI_DIR"
 fi
 
 # Build

@@ -1,5 +1,5 @@
 # kwiki bootstrap for Windows
-# Usage: irm https://raw.githubusercontent.com/you/kwiki/main/scripts/bootstrap.ps1 | iex
+# Usage: irm https://raw.githubusercontent.com/iddsaiddunia/kwiki/main/scripts/bootstrap.ps1 | iex
 
 $ErrorActionPreference = "Stop"
 
@@ -16,12 +16,12 @@ if (-not (Get-Command go -ErrorAction SilentlyContinue)) {
 $kwikiDir = "$env:USERPROFILE\.kwiki"
 if (-not (Test-Path $kwikiDir)) {
     if (Get-Command git -ErrorAction SilentlyContinue) {
-        git clone https://github.com/you/kwiki.git $kwikiDir
+        git clone https://github.com/iddsaiddunia/kwiki.git $kwikiDir
     } else {
         Write-Host "📦 Installing Git first..." -ForegroundColor Cyan
         winget install Git.Git --silent --accept-package-agreements --accept-source-agreements
         $env:PATH += ";C:\Program Files\Git\bin"
-        git clone https://github.com/you/kwiki.git $kwikiDir
+        git clone https://github.com/iddsaiddunia/kwiki.git $kwikiDir
     }
 }
 

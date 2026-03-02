@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/kwiki/kwiki/cmd"
+	"github.com/iddsaiddunia/kwiki/cmd"
 )
 
 func main() {

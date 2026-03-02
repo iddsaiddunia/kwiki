@@ -4,8 +4,8 @@ import (
 	"fmt"
 
 	tea "github.com/charmbracelet/bubbletea"
-	"github.com/kwiki/kwiki/installer"
-	"github.com/kwiki/kwiki/tui"
+	"github.com/iddsaiddunia/kwiki/installer"
+	"github.com/iddsaiddunia/kwiki/tui"
 	"github.com/spf13/cobra"
 )
 

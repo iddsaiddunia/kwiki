@@ -1,4 +1,4 @@
-module github.com/kwiki/kwiki
+module github.com/iddsaiddunia/kwiki
 
 go 1.25.7
 
